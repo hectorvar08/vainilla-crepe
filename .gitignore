@@ -1,0 +1,5 @@
+node_modules
+dist
+.DS_Store
+# Fotos originales en alta resolución: se quedan solo en la computadora
+assets-src

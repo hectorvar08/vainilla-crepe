@@ -1,0 +1,41 @@
+/* Tokens de marca — Vainilla Crêpe.
+   Cambia un color aquí y se actualiza en todo el sitio. */
+:root {
+  /* Paleta oficial */
+  --crema: #F6E8D7;        /* predominante */
+  --vino: #8A1025;         /* acento */
+  --cafe: #4A2E24;         /* texto y apoyo */
+  /* Derivados */
+  --cafe-noche: #30120E;   /* fondo de la bienvenida (muestreado de Logo-inicial.png) */
+  --cafe-suave: #6E5045;   /* texto secundario — contraste 6:1 sobre crema */
+  --crema-honda: #EFDDC8;  /* superficies sobre crema */
+  --durazno: #F0D2C3;      /* fondo de las fotos, para el instante antes de que carguen */
+  --vino-hondo: #6E0C1D;   /* vino al presionar */
+  --linea: rgba(74, 46, 36, 0.22);
+  --linea-fuerte: rgba(74, 46, 36, 0.5);
+
+  /* Tipografía */
+  --serif: 'Bodoni Moda', 'Didot', 'Bodoni 72', Georgia, serif;
+  --sans: 'Mulish', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Escala (base 16px, razón ~1.25) */
+  --t-xs: 0.875rem;
+  --t-s: 0.9375rem;
+  --t-m: 1rem;
+  --t-l: 1.1875rem;
+  --t-xl: 1.4375rem;
+  --t-xxl: 1.875rem;
+
+  /* Medidas */
+  --gutter: 16px;
+  --ancho: 1120px;
+  --toque: 44px;
+  --arco: 16%;             /* curvatura del arco de las fotos (todas toleran hasta 18 %) */
+  --dock-h: 0px;
+  --rapido: 160ms;
+  --suave: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (min-width: 700px) {
+  :root { --gutter: 28px; }
+}
